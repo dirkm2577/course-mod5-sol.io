@@ -4,10 +4,11 @@ Summary: In this assignment, we are going to have a bit of fun with our built re
 
 In order to accomplish this, we need to change the home HTML snippet and, besides pulling it dynamically from the server, also insert a random category short_name into the function call of the following code. Previously, the code to send the user to the "Specials" category was this:
 
-<a href="#" onclick="$dc.loadMenuItems('SP');">
+// <a href="#" onclick="$dc.loadMenuItems('SP');"> //
 For this assignment, we changed this line to prepare it for a random category short_name to be this:
 
-<a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">
+// <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});"> //
+  
 Here is what you will need to complete the assignment:
 
 1. (If you haven't already) Create a GitHub.com account and a repository that you will use for this class.
@@ -20,7 +21,7 @@ Here is what you will need to complete the assignment:
 
 This will update your local repository with whatever changes have been made since the last update.
 
-As a reminder, the full repository URL is: https://github.com/jhu-ep-coursera/fullstack-course4
+As a reminder, the full repository URL is: https://github.com/jhu-ep-coursera/fullstack-course4 . 
 
 5. Once you update your repository, copy all the contents of the fullstack-course4/assignments/assignment5/assignment5-solution-starter folder into your newly created solutions container folder for this assignment, e.g., module5-solution.
 
